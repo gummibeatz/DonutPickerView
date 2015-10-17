@@ -7,24 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC0024EB1BC80D0400A9AD34 /* PentagonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0024EA1BC80D0400A9AD34 /* PentagonShape.swift */; settings = {ASSET_TAGS = (); }; };
 		CC29FC751BC1E01800A8B31E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC29FC741BC1E01800A8B31E /* AppDelegate.swift */; };
 		CC29FC771BC1E01800A8B31E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC29FC761BC1E01800A8B31E /* ViewController.swift */; };
 		CC29FC7C1BC1E01800A8B31E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC29FC7B1BC1E01800A8B31E /* Assets.xcassets */; };
 		CC29FC7F1BC1E01800A8B31E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC29FC7D1BC1E01800A8B31E /* LaunchScreen.storyboard */; };
-		CC29FC871BC1E32F00A8B31E /* SampleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC29FC861BC1E32F00A8B31E /* SampleShape.swift */; settings = {ASSET_TAGS = (); }; };
 		CCC7519D1BCC19BC0027AC1E /* DonutPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7519C1BCC19BC0027AC1E /* DonutPickerView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC0024EA1BC80D0400A9AD34 /* PentagonShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PentagonShape.swift; sourceTree = "<group>"; };
 		CC29FC711BC1E01800A8B31E /* DonutPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonutPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC29FC741BC1E01800A8B31E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC29FC761BC1E01800A8B31E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC29FC7B1BC1E01800A8B31E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC29FC7E1BC1E01800A8B31E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC29FC801BC1E01800A8B31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC29FC861BC1E32F00A8B31E /* SampleShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleShape.swift; sourceTree = "<group>"; };
 		CCC7519C1BCC19BC0027AC1E /* DonutPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,9 +56,7 @@
 			children = (
 				CC29FC741BC1E01800A8B31E /* AppDelegate.swift */,
 				CC29FC761BC1E01800A8B31E /* ViewController.swift */,
-				CC29FC861BC1E32F00A8B31E /* SampleShape.swift */,
 				CCC7519C1BCC19BC0027AC1E /* DonutPickerView.swift */,
-				CC0024EA1BC80D0400A9AD34 /* PentagonShape.swift */,
 				CC29FC7B1BC1E01800A8B31E /* Assets.xcassets */,
 				CC29FC7D1BC1E01800A8B31E /* LaunchScreen.storyboard */,
 				CC29FC801BC1E01800A8B31E /* Info.plist */,
@@ -143,8 +137,6 @@
 				CCC7519D1BCC19BC0027AC1E /* DonutPickerView.swift in Sources */,
 				CC29FC771BC1E01800A8B31E /* ViewController.swift in Sources */,
 				CC29FC751BC1E01800A8B31E /* AppDelegate.swift in Sources */,
-				CC29FC871BC1E32F00A8B31E /* SampleShape.swift in Sources */,
-				CC0024EB1BC80D0400A9AD34 /* PentagonShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
