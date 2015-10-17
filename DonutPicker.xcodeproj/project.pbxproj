@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC0024EB1BC80D0400A9AD34 /* PentagonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0024EA1BC80D0400A9AD34 /* PentagonShape.swift */; settings = {ASSET_TAGS = (); }; };
+		CC29FC751BC1E01800A8B31E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC29FC741BC1E01800A8B31E /* AppDelegate.swift */; };
+		CC29FC771BC1E01800A8B31E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC29FC761BC1E01800A8B31E /* ViewController.swift */; };
+		CC29FC7C1BC1E01800A8B31E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC29FC7B1BC1E01800A8B31E /* Assets.xcassets */; };
+		CC29FC7F1BC1E01800A8B31E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC29FC7D1BC1E01800A8B31E /* LaunchScreen.storyboard */; };
+		CC29FC871BC1E32F00A8B31E /* SampleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC29FC861BC1E32F00A8B31E /* SampleShape.swift */; settings = {ASSET_TAGS = (); }; };
+		CCC7519D1BCC19BC0027AC1E /* DonutPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC7519C1BCC19BC0027AC1E /* DonutPickerView.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC0024EA1BC80D0400A9AD34 /* PentagonShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PentagonShape.swift; sourceTree = "<group>"; };
+		CC29FC711BC1E01800A8B31E /* DonutPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonutPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC29FC741BC1E01800A8B31E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC29FC761BC1E01800A8B31E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC29FC7B1BC1E01800A8B31E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC29FC7E1BC1E01800A8B31E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC29FC801BC1E01800A8B31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC29FC861BC1E32F00A8B31E /* SampleShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleShape.swift; sourceTree = "<group>"; };
+		CCC7519C1BCC19BC0027AC1E /* DonutPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonutPickerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC29FC6E1BC1E01800A8B31E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC29FC681BC1E01800A8B31E = {
+			isa = PBXGroup;
+			children = (
+				CC29FC731BC1E01800A8B31E /* DonutPicker */,
+				CC29FC721BC1E01800A8B31E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC29FC721BC1E01800A8B31E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC29FC711BC1E01800A8B31E /* DonutPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC29FC731BC1E01800A8B31E /* DonutPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CC29FC741BC1E01800A8B31E /* AppDelegate.swift */,
+				CC29FC761BC1E01800A8B31E /* ViewController.swift */,
+				CC29FC861BC1E32F00A8B31E /* SampleShape.swift */,
+				CCC7519C1BCC19BC0027AC1E /* DonutPickerView.swift */,
+				CC0024EA1BC80D0400A9AD34 /* PentagonShape.swift */,
+				CC29FC7B1BC1E01800A8B31E /* Assets.xcassets */,
+				CC29FC7D1BC1E01800A8B31E /* LaunchScreen.storyboard */,
+				CC29FC801BC1E01800A8B31E /* Info.plist */,
+			);
+			name = DonutPicker;
+			path = PiePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC29FC701BC1E01800A8B31E /* DonutPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC29FC831BC1E01800A8B31E /* Build configuration list for PBXNativeTarget "DonutPicker" */;
+			buildPhases = (
+				CC29FC6D1BC1E01800A8B31E /* Sources */,
+				CC29FC6E1BC1E01800A8B31E /* Frameworks */,
+				CC29FC6F1BC1E01800A8B31E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonutPicker;
+			productName = PiePicker;
+			productReference = CC29FC711BC1E01800A8B31E /* DonutPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC29FC691BC1E01800A8B31E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Linus Liang";
+				TargetAttributes = {
+					CC29FC701BC1E01800A8B31E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CC29FC6C1BC1E01800A8B31E /* Build configuration list for PBXProject "DonutPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC29FC681BC1E01800A8B31E;
+			productRefGroup = CC29FC721BC1E01800A8B31E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC29FC701BC1E01800A8B31E /* DonutPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC29FC6F1BC1E01800A8B31E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC29FC7F1BC1E01800A8B31E /* LaunchScreen.storyboard in Resources */,
+				CC29FC7C1BC1E01800A8B31E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC29FC6D1BC1E01800A8B31E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC7519D1BCC19BC0027AC1E /* DonutPickerView.swift in Sources */,
+				CC29FC771BC1E01800A8B31E /* ViewController.swift in Sources */,
+				CC29FC751BC1E01800A8B31E /* AppDelegate.swift in Sources */,
+				CC29FC871BC1E32F00A8B31E /* SampleShape.swift in Sources */,
+				CC0024EB1BC80D0400A9AD34 /* PentagonShape.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC29FC7D1BC1E01800A8B31E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC29FC7E1BC1E01800A8B31E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC29FC811BC1E01800A8B31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC29FC821BC1E01800A8B31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC29FC841BC1E01800A8B31E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PiePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Curate.PiePicker;
+				PRODUCT_NAME = DonutPicker;
+			};
+			name = Debug;
+		};
+		CC29FC851BC1E01800A8B31E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PiePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Curate.PiePicker;
+				PRODUCT_NAME = DonutPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC29FC6C1BC1E01800A8B31E /* Build configuration list for PBXProject "DonutPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC29FC811BC1E01800A8B31E /* Debug */,
+				CC29FC821BC1E01800A8B31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC29FC831BC1E01800A8B31E /* Build configuration list for PBXNativeTarget "DonutPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC29FC841BC1E01800A8B31E /* Debug */,
+				CC29FC851BC1E01800A8B31E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC29FC691BC1E01800A8B31E /* Project object */;
+}
